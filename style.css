@@ -17,3 +17,12 @@ canvas {
     box-shadow: 10px 10px 10px gray;
     border-radius: 10px;
 }
+
+#img1,
+#img2,
+#img3 {
+    border-radius: 20px;
+    font-size: 40px;
+    float: center;
+    margin-top: 50px;
+}
