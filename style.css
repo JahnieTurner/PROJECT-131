@@ -26,3 +26,13 @@ canvas {
     float: center;
     margin-top: 50px;
 }
+
+.copy_right_footer {
+    position: bottom;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+}

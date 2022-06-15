@@ -10,7 +10,7 @@ function setup() {
 }
 
 function preload() {
-    img = loadImage("banana.jpg")
+    img = loadImage("porch.jpg")
 }
 
 function draw() {
@@ -53,6 +53,6 @@ function start() {
     document.getElementById("status").innerHTML = "status: detecting object";
 }
 
-function back_fruits() {
+function back_porch() {
     window.location = "index.html";
 }
