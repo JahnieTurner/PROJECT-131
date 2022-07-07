@@ -4,9 +4,6 @@ objects = [];
 function setup() {
     canvas = createCanvas(380, 380);
     canvas.center();
-    video = createCapture(VIDEO);
-    video.hide();
-    video.size(380, 380);
 }
 
 function preload() {
@@ -14,9 +11,9 @@ function preload() {
 }
 
 function draw() {
-    image(video, 0, 0, 380, 380);
+    image(img, 0, 0, 380, 380);
     if (status != "") {
-        object_detector.detect(video, gotResults);
+        object_detector.detect(img, gotResults);
         r = random(255);
         g = random(255);
         b = random(255);
